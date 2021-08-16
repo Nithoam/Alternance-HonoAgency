@@ -12,7 +12,7 @@ function shortcodeSocialMedia($settings) {
     )
   );
 
-$tagLink = '<a href="'.$link.'" title="'.$title.'" rel="'.$rel.'">'.'<img src="'.$content.'" alt="'.$title.'">'.'</a>';
+$tagLink = '<a href="'.$link.'" title="'.$title.'" rel="'.$rel.'">'.'<img src="'.$content.'" alt="'.$title.'"></a>';
 
 return $tagLink;
 };
