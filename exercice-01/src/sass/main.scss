@@ -61,7 +61,13 @@ body {
     width:60px;
   }
 }
-
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
 .aside{
   position: absolute;
   top:7%;
